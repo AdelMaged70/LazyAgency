@@ -35,8 +35,8 @@ export default function Contact() {
     setErrorMessage('')
 
     try {
-      const response = await fetch('lazy-agency.vercel.app/api/contact', {
-        method: 'POST',
+      const response = await fetch('https://lazy-agency.vercel.app//api/contact', {
+        method: 'POST', 
         headers: {
           'Content-Type': 'application/json',
         },
